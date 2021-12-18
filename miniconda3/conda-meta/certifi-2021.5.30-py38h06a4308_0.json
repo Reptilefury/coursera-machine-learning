@@ -1,0 +1,49 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/reptilefury/miniconda3/pkgs/certifi-2021.5.30-py38h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/certifi-2021.5.30-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/certifi-2021.5.30-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/certifi-2021.5.30-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/certifi-2021.5.30-py3.8.egg-info/installed-files.txt",
+    "lib/python3.8/site-packages/certifi-2021.5.30-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/certifi-2021.5.30-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/certifi/__init__.py",
+    "lib/python3.8/site-packages/certifi/__main__.py",
+    "lib/python3.8/site-packages/certifi/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/certifi/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/certifi/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/certifi/cacert.pem",
+    "lib/python3.8/site-packages/certifi/core.py"
+  ],
+  "fn": "certifi-2021.5.30-py38h06a4308_0.conda",
+  "legacy_bz2_md5": "f424e4e896312100fcf14a86c93a8c5c",
+  "legacy_bz2_size": 144657,
+  "license": "MPL-2.0",
+  "link": {
+    "source": "/home/reptilefury/miniconda3/pkgs/certifi-2021.5.30-py38h06a4308_0",
+    "type": 1
+  },
+  "md5": "72292dd88ab45323a890685c90c271e3",
+  "name": "certifi",
+  "package_tarball_full_path": "/home/reptilefury/miniconda3/pkgs/certifi-2021.5.30-py38h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "certifi==2021.5.30=py38h06a4308_0",
+  "sha256": "5af70eb33567553f7ddd967b0d5290213c50dc2f7da6a1c8c3ce7e925e8aa774",
+  "size": 141349,
+  "subdir": "linux-64",
+  "timestamp": 1622562517906,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2021.5.30-py38h06a4308_0.conda",
+  "version": "2021.5.30"
+}

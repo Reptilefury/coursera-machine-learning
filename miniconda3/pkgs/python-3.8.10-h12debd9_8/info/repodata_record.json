@@ -1,0 +1,30 @@
+{
+  "build": "h12debd9_8",
+  "build_number": 8,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ld_impl_linux-64",
+    "libffi >=3.3,<3.4.0a0",
+    "libgcc-ng >=7.5.0",
+    "ncurses >=6.2,<7.0a0",
+    "openssl >=1.1.1k,<1.1.2a",
+    "readline >=8.0,<9.0a0",
+    "sqlite >=3.35.4,<4.0a0",
+    "tk >=8.6.10,<8.7.0a0",
+    "xz >=5.2.5,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "python-3.8.10-h12debd9_8.tar.bz2",
+  "license": "Python-2.0",
+  "md5": "ba5ae2057847cc77f0718742fd68df74",
+  "name": "python",
+  "sha256": "e4aefa1d2b90c9297db81c6ec12da6da43c7d0c32cacb843b86a1ecebe9f32e1",
+  "size": 60515074,
+  "subdir": "linux-64",
+  "timestamp": 1622837512057,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/python-3.8.10-h12debd9_8.tar.bz2",
+  "version": "3.8.10"
+}

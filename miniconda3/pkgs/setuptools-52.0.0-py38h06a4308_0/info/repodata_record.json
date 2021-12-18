@@ -1,0 +1,25 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2016.9.26",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "setuptools-52.0.0-py38h06a4308_0.conda",
+  "legacy_bz2_md5": "137b633e94368d2f05b3cea65dc284c0",
+  "legacy_bz2_size": 949805,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "28b5368307cefee1c0940ff14064ed9c",
+  "name": "setuptools",
+  "sha256": "d5eab0eea7ad4de66f6f85fd9292a5714b2727eb3a94a31972df5685c96ffe9b",
+  "size": 731157,
+  "subdir": "linux-64",
+  "timestamp": 1611605169910,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/setuptools-52.0.0-py38h06a4308_0.conda",
+  "version": "52.0.0"
+}
