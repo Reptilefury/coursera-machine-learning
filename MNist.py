@@ -18,6 +18,7 @@ labels = tf.compat.v1.placeholder(tf.float32, [None, labels_count])
 weights = tf.Variable(tf.compat.v1.truncated, normal((features_count, labels_count)))
 biases = tf.Variable(tf.zeros(labels_count), name='biases')
 
+
 optimizer = tf.compat.v1.train.GradientDescentOptimizer(learning_rate).minimize(loss)
 
 logits = tf.add(tf.matmul(features, weights), biases)
