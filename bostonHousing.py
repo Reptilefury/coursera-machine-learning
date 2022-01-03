@@ -17,3 +17,6 @@ loss = -(math.log(softmax[0] * target_output[0] +
                   softmax[2] * target_output[2]))
 
 print(loss)
+
+
+#bostonHousing
