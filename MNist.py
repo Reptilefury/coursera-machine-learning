@@ -2,9 +2,11 @@ import tensorflow as tf
 # importing mnist dataset through Keras
 from tensorflow.keras.datasets.mnist import load_data
 from tensorflow.python.ops.init_ops_v2 import normal
+
 tf.compat.v1.disable_eager_execution()
 
-mnist = load_data.read_data_sets("MNIST_data/", one_hot=True)
+# mnist = load_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = load_data("MNIST original")
 
 features_count = 784
 labels_count = 10
@@ -17,7 +19,6 @@ labels = tf.compat.v1.placeholder(tf.float32, [None, labels_count])
 
 weights = tf.Variable(tf.compat.v1.truncated, normal((features_count, labels_count)))
 biases = tf.Variable(tf.zeros(labels_count), name='biases')
-
 
 optimizer = tf.compat.v1.train.GradientDescentOptimizer(learning_rate).minimize(loss)
 

@@ -1,6 +1,8 @@
 import numpy as np
 import tensorflow as tf
 from sklearn.datasets import load_boston
+from tensorflow_estimator.python.estimator.canned.timeseries import model
+
 
 tf.compat.v1.disable_eager_execution()
 tf.compat.v1.reset_default_graph()
