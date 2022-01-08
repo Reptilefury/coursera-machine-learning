@@ -5,8 +5,8 @@ from tensorflow.python.ops.init_ops_v2 import normal
 
 tf.compat.v1.disable_eager_execution()
 
-# mnist = load_data.read_data_sets("MNIST_data/", one_hot=True)
-mnist = load_data("MNIST original")
+mnist = load_data.read_data_sets("MNIST_data/", one_hot=True)
+#mnist = load_data("MNIST original")
 
 features_count = 784
 labels_count = 10
